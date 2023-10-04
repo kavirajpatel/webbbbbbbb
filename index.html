@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+    <header>
+        <nav id="topbar">
+            <div id="left-menu">
+                <div id="logo"><a href="/index.html"><span>Shop</span>lane</a></div>
+                <a href="#clothing-section">Clothing</a>
+                <a href="#accessory-section">Accessories</a>
+            </div>
+            <div id="search-wrapper">
+                <i class="fas fa-search" aria-hidden="true"></i>
+                <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories">
+            </div>
+            <div id="right-menu">
+                <div id="cart-wrapper">
+                    <p id="cart-count">1</p>
+                    <a id="cartIcon" href="checkout.html">
+                        <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                    </a>
+                </div>
+                <img src="/assets/myavatar.jpeg">
+            </div>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section>
+            <div class="img-slider">
+                <div class="slide active">
+                    <img src="/assets/slick1.png" />
+                </div>
+                <div class="slide">
+                    <img src="/assets/slick2.png" />
+                </div>
+                <div class="slide">
+                    <img src="/assets/slick3.png" />
+                </div>
+                <div class="slide">
+                    <img src="/assets/slick4.png" />
+                </div>
+                <div class="navigation">
+                    <div class="btn active"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                </div>
+            </div>
+
+            <section id="clothing-section" class="homepage-section">
+                <h3 class="section-heading">Clothing for Men and Women</h3>
+
+                <div id="clothing-grid" class="product-grid">
+                </div>
+            </section>
+
+            <section id="accessory-section" class="homepage-section">
+                <h3 class="section-heading">Accessories for Men and Women</h3>
+
+                <div id="accessory-grid" class="product-grid">
+                </div>
+            </section>
+
+
+    </main>
+
+    <img id="edyoda-projects-logo" src="/assets/edyoda.logo.png" alt="EdYoda Projects Logo">
+
+    <footer>
+        <div>
+            <p class="footer-heading">Online Store</p>
+            <a href="/" class="footer-link">Men Clothing</a>
+            <a href="/" class="footer-link">Women Clothing</a>
+            <a href="/" class="footer-link">Men Accessories</a>
+            <a href="/" class="footer-link">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">Helpful Links</p>
+            <a href="/" class="footer-link">Home</a>
+            <a href="/" class="footer-link">About</a>
+            <a href="/" class="footer-link">Contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">Partners</p>
+            <a href="/" class="footer-link">Zara</a>
+            <a href="/" class="footer-link">Pantaloons</a>
+            <a href="/" class="footer-link">Levis</a>
+            <a href="/" class="footer-link">UCB</a>
+            <a href="/" class="footer-link">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">Address</p>
+            <p href="/" class="footer-link">Building 101</p>
+            <p href="/" class="footer-link">Central Avenue</p>
+            <p href="/" class="footer-link">LA - 902722</p>
+            <p href="/" class="footer-link">United States</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+    <script src="slick-section.js"></script>
+    <script src="base.js"></script>
+</body>
+</html>
